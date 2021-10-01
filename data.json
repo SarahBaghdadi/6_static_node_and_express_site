@@ -1,0 +1,22 @@
+{"projects":
+    [
+        {
+            "id": 0,
+            "project_name": 'Name',
+            "description": 'Description',
+            "technologies": 'JS',
+            "live_link": 'www.google.com',
+            "github_link": 'www.github.com',
+            "image_urls": '/images/550x350.jpg'
+        },
+        {
+            "id": 1,
+            "project_name": 'Name',
+            "description": 'Description',
+            "technologies": 'JS',
+            "live_link": 'www.google.com',
+            "github_link": 'www.github.com',
+            "image_urls": '/images/550x350.jpg'
+        }
+    ]
+}
