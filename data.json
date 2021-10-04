@@ -1,22 +1,22 @@
-{"projects":
-    [
+{
+    "projects": [
         {
             "id": 0,
-            "project_name": 'Name',
-            "description": 'Description',
-            "technologies": 'JS',
-            "live_link": 'www.google.com',
-            "github_link": 'www.github.com',
-            "image_urls": '/images/550x350.jpg'
+            "project_name": "Name 1",
+            "description": "Description 1",
+            "technologies": ["JS", "Pug"],
+            "live_link": "www.google.com",
+            "github_link": "www.github.com",
+            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
         },
         {
             "id": 1,
-            "project_name": 'Name',
-            "description": 'Description',
-            "technologies": 'JS',
-            "live_link": 'www.google.com',
-            "github_link": 'www.github.com',
-            "image_urls": '/images/550x350.jpg'
+            "project_name": "Name 2",
+            "description": "Description 2",
+            "technologies": ["JS", "Pug"],
+            "live_link": "www.google.com",
+            "github_link": "www.github.com",
+            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
         }
     ]
 }
