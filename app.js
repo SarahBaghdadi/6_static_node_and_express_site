@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
             err.mesage = err.message || 'Something went wrong.';
             res.status(err.status || 500);
         }
-        console.log('Global error handler called', err.status);
+        console.log(`Global error handler called. Status: ${err.status}. Message: ${err.message}.`);
         res.render('error', {err});
     }
 });
