@@ -7,7 +7,9 @@ const data = require('./data.json');
 
 app.get('/', (req, res) => {
     res.locals = data.projects;
-    res.render('index');
+    const projects = data.projects;
+    console.log(projects);
+    res.render('index', {projects: projects});
 });
 
 app.get('/about', (req, res) => {

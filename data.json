@@ -2,20 +2,47 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Name 1",
-            "description": "Description 1",
-            "technologies": ["JS", "Pug"],
-            "live_link": "www.google.com",
-            "github_link": "www.github.com",
+            "project_name": "Golden Girls Quote Generator",
+            "description": "A webpage to share Golden Girls wisdom. Displays new quotes on click and at time intervals.",
+            "technologies": ["JS", "HTML", "CSS"],
+            "live_link": "https://sarahbaghdadi.github.io/1_quote_generator/",
+            "github_link": "https://github.com/SarahBaghdadi/1_quote_generator",
             "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
         },
         {
             "id": 1,
-            "project_name": "Name 2",
-            "description": "Description 2",
-            "technologies": ["JS", "Pug"],
-            "live_link": "www.google.com",
-            "github_link": "www.github.com",
+            "project_name": "A Directory with Pagination and Search",
+            "description": "A webpage that displays student information with pagination, filtering, and search.",
+            "technologies": ["JS", "HTML", "CSS"],
+            "live_link": "https://sarahbaghdadi.github.io/2_data_pagination/",
+            "github_link": "https://github.com/SarahBaghdadi/2_data_pagination",
+            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+        },
+        {
+            "id": 2,
+            "project_name": "An Accessible and Interactive Form with Validation",
+            "description": "An interactive form with customized conditional behavior and interactivity. Validates user input, providing helpful error messages when the user submits invalid information. Attention to accessibility - all form fields have clear focus styling for keyboard only users, form validation errors obvious to all users.",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://sarahbaghdadi.github.io/3_interactive_form/",
+            "github_link": "https://github.com/SarahBaghdadi/3_interactive_form",
+            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+        },
+        {
+            "id": 3,
+            "project_name": "Wheel of Letters!",
+            "description": "A browser-based, word guessing game. The player tries to guess a random hidden phrase, by clicking letters on an onscreen keyboard. The player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose). Input letters by clicking the onscreen keyboard or using the physical keyboard.",
+            "technologies": ["JS", "HTML", "CSS"],
+            "live_link": "https://sarahbaghdadi.github.io/4_oop_game/",
+            "github_link": "https://github.com/SarahBaghdadi/4_oop_game",
+            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+        },
+        {
+            "id": 4,
+            "project_name": "Employee Directory from a Public API",
+            "description": "An employee directory app for a fictional company called Awesome Startup. Gets data on 12 employees from Random User Generator API and creates HTML for each employee. Users can search the names on the employee list and view only matching employees, view additional details on each person in a modal window and navigate the list of employees or the search results via modal windows.",
+            "technologies": ["JS", "Pubic API", "HTML", "CSS"],
+            "live_link": "https://sarahbaghdadi.github.io/5_public_API_requests/",
+            "github_link": "https://github.com/SarahBaghdadi/5_public_API_requests",
             "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
         }
     ]
