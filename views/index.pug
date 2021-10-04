@@ -3,28 +3,18 @@ extends layout.pug
 block content
 
   article.portfolio-intro
-
     h1 Hey, Potential Employers
-
     p Welcome to my portfolio site, built with Node and Express. This site is a project for my Treehouse Teach Degree, designed to highlight my accomplishments in the program. Enjoy the projects, descriptions, screenshots, and live links. 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
       each item in projects
         .cell
           a(href=`/projects/${item.id}`)
             img.thumbnail(src=`${item.image_urls[0]}`, alt=`Thumbnail for ${item.project_name}`)
             h5= item.project_name
-
-        
-        
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
 
 
 
