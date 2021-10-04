@@ -7,7 +7,7 @@
             "technologies": ["JS", "HTML", "CSS"],
             "live_link": "https://sarahbaghdadi.github.io/1_quote_generator/",
             "github_link": "https://github.com/SarahBaghdadi/1_quote_generator",
-            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+            "image_urls": ["/static/images/golden0.png", "/static/images/golden1.png", "/static/images/golden2.png", "/static/images/golden3.png"] 
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["JS", "HTML", "CSS"],
             "live_link": "https://sarahbaghdadi.github.io/2_data_pagination/",
             "github_link": "https://github.com/SarahBaghdadi/2_data_pagination",
-            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+            "image_urls": ["/static/images/dir0.png", "/static/images/dir1.png", "/static/images/dir2.png", "/static/images/dir3.png"] 
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS"],
             "live_link": "https://sarahbaghdadi.github.io/3_interactive_form/",
             "github_link": "https://github.com/SarahBaghdadi/3_interactive_form",
-            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+            "image_urls": ["/static/images/form0.png", "/static/images/form1.png", "/static/images/form2.png", "/static/images/form3.png", "/static/images/form4.png", "/static/images/form5.png"] 
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["JS", "HTML", "CSS"],
             "live_link": "https://sarahbaghdadi.github.io/4_oop_game/",
             "github_link": "https://github.com/SarahBaghdadi/4_oop_game",
-            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+            "image_urls": ["/static/images/phrase0.png", "/static/images/phrase1.png", "/static/images/phrase2.png", "/static/images/phrase3.png", "/static/images/phrase4.png", "/static/images/phrase5.png"] 
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["JS", "Pubic API", "HTML", "CSS"],
             "live_link": "https://sarahbaghdadi.github.io/5_public_API_requests/",
             "github_link": "https://github.com/SarahBaghdadi/5_public_API_requests",
-            "image_urls": ["../images/550x350.jpg", "../images/550x550.jpg", "../images/1200x550.jpg"] 
+            "image_urls": ["/static/images/awes0.png", "/static/images/awes1.png", "/static/images/awes2.png", "/static/images/awes3.png", "/static/images/awes4.png", "/static/images/awes5.png"] 
         }
     ]
 }

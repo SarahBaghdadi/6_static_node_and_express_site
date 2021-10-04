@@ -6,9 +6,9 @@ app.use('/static', express.static('public'));
 const data = require('./data.json');
 
 app.get('/', (req, res) => {
+    console.log(req.baseUrl);
     res.locals = data.projects;
     const projects = data.projects;
-    console.log(projects);
     res.render('index', {projects: projects});
 });
 
