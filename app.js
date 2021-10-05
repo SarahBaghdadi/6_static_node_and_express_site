@@ -8,19 +8,22 @@ const data = require('./data.json');
 app.get('/', (req, res) => {
     res.locals = data.projects;
     const projects = data.projects;
-    console.log('navigated to index');
     res.render('index', {projects: projects});
 });
 
 app.get('/about', (req, res) => {
-    console.log('navigated to about');
     res.render('about');
 });
 
-app.get(`/projects/:id`, (req, res) => {
+app.get(`/projects/:id`, (req, res, next) => {
     const id = req.params.id;
     const project = data.projects[id];
-    console.log('navigated to project');
+    if (!project) {
+        const err = new Error;
+        err.status = 404;
+        err.message = `Project ${id} does not exist.`;
+        next(err);
+    }
     res.render('project', project);
 });
 
@@ -30,7 +33,7 @@ app.use((req, res, next) => {
     err.status = 404;
     err.message = 'Page Not Found';
     next(err);
-  });
+});
 
 // error handler
 app.use((err, req, res, next) => {
@@ -38,8 +41,8 @@ app.use((err, req, res, next) => {
         if (err.status == 404) {
             res.status(404);
         } else {
-            err.mesage = err.message || 'Something went wrong.';
-            res.status(err.status || 500);
+            err.message = err.message || 'Something went wrong.';
+            err.status = err.status || 500;
         }
         console.log(`Global error handler called. Status: ${err.status}. Message: ${err.message}.`);
         res.render('error', {err});
